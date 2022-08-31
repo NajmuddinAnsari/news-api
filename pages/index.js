@@ -11,7 +11,6 @@ export default function Home({ news }) {
       </Head>
 
       <main >
-        <h1>najmuddin</h1>
         {
           news.map((news) => (
             <News
